@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>JS Assignment</title>
+	<style type="text/css">
+		
+	body {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+    h2{
+      color: #000;
+      padding: 25px;
+      border-radius: 55px;
+      font-weight: 650;
+      font-family: 'popins',sans-serif;
+      background: linear-gradient(#30d130, #ededf1);
+    }
+	</style>
+</head>
+<body>
+	<h2>Open the console to view the required Outputs.</h2>
+	<script type="text/javascript">
+		function Person(fname, lname, office) {
+  this.firstName = fname;
+  this.lastName = lname;
+  this.officeAdress = office;
+}
+const details = new Person('firstName','lastName','officeAdress');
+const personOne = new Person('Abhishek', 'Kumar', 'NIT Patna');
+const personTwo = new Person('Jayesh', 'Kumar','NIT Patna');
+const personThree = new Person('Anand','Kumar','NIT PAtna');
+console.log(details.firstName+" "+details.lastName+" "+details.officeAdress);
+console.log(personOne.firstName+" "+personOne.lastName+" "+personOne.officeAdress);
+console.log(personTwo.firstName+" "+personTwo.lastName+" "+personTwo.officeAdress);
+console.log(personThree.firstName+" "+personThree.lastName+" "+personThree.officeAdress);
+	</script>
+</body>
+</html>
